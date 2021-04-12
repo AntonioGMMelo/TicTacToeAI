@@ -1,0 +1,31 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.Square{
+
+  border:2px solid #000080;
+  border-radius: 5px;
+  cursor: pointer;
+  background-size: contain;
+
+}
+
+.O{
+
+  background: url("./O.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+
+.X{
+
+  background: url("./X.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+
+}

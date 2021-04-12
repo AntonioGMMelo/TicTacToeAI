@@ -210,6 +210,10 @@ function thirdMove(ticTacToeBoard){
         return "oxo.x.xo.";
     }else if(board === "o.oxx.x.." || board === "o.o.xxx.." || board === "o.o.x.xx." || board === "o.o.x.x.x"){
         return  board.replaceAt(1, "o");
+    }else if(board === "o..oxxx.."){
+        return "o.ooxxx..";
+    }else if(board === "ox.oxx..." || board === "o.xoxx..." || board === "o..oxx.x." || board === "o..oxx..x"){
+        return board.replaceAt(5, "o");
     }else if(board === "oox.x..x."){
         return "oox.x.ox.";
     }else if(board === "oo.xx..x." || board === "oo..xx.x." || board === "oo..x.xx." || board === "oo..x..xx"){
@@ -339,7 +343,11 @@ function lastMove(ticTacToeBoard){
 
     let board = ticTacToeBoard;
 
-    if(board === "oxxxx.oo."){
+    if(board === "oxooxxx.."){
+        return "oxooxxxo.";
+    }else if(board === "o.ooxxx." || board === "o.ooxxx.x"){
+         return board.replaceAt(1, "o");
+    }else if(board === "oxxxx.oo."){
         return "oxxxx.ooo";
     }else if(board === "oxx.xxoo."){
         return "oxxoxxoo.";

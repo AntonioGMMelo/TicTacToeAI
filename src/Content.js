@@ -148,23 +148,23 @@ import functions from "./logic"
         grid-template-columns: auto auto auto;
         grid-template rows: auto auto auto;
         border-radius:10px;
-        margin-right: 10px;
+        margin: 10px;
 
-        @media(max-width: 700px){
+        @media(max-width: 800px){
          
             height:50vh;
             width:50vh;
 
         }
 
-        @media(max-width: 600px){
+        @media(max-width: 700px){
          
             height:40vh;
             width:40vh;
 
         }
 
-        @media(max-width: 500px){
+        @media(max-width: 600px){
          
             height:30vh;
             width:30vh;

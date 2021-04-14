@@ -149,6 +149,27 @@ import functions from "./logic"
         grid-template rows: auto auto auto;
         border-radius:10px;
 
+        @media(max-width: 700px){
+         
+            height:50vh;
+            width:50vh;
+
+        }
+
+        @media(max-width: 600px){
+         
+            height:40vh;
+            width:40vh;
+
+        }
+
+        @media(max-width: 500px){
+         
+            height:30vh;
+            width:30vh;
+
+        }
+
     `
     const Button = styled.button`
     

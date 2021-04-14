@@ -133,8 +133,8 @@ import functions from "./logic"
         background: #555555;
         min-height:80vh;
         display:flex;
-        justify-content:center;
         align-items:center;
+        justify-content:center;
         flex-direction: column;
 
     `
@@ -149,7 +149,7 @@ import functions from "./logic"
         grid-template-columns: auto auto auto;
         grid-template rows: auto auto auto;
         border-radius:10px;
-        margin: 10px;
+        margin: 0 10px 0 10px;
 
         @media(max-width: 800px){
          

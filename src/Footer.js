@@ -30,6 +30,6 @@ import styled from 'styled-components'
     `
     const LinkInstance = styled.a`
     
-        margin: 0 20px 0 0;
+        margin: 0 0 0 10px;
 
     `

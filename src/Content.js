@@ -129,6 +129,7 @@ import functions from "./logic"
 
     const Container = styled.div`
     
+        width:100%;
         background: #555555;
         min-height:80vh;
         display:flex;

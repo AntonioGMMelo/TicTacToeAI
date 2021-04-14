@@ -148,7 +148,7 @@ import functions from "./logic"
         grid-template-columns: auto auto auto;
         grid-template rows: auto auto auto;
         border-radius:10px;
-        margin: 10px;
+        margin-right: 10px;
 
         @media(max-width: 700px){
          

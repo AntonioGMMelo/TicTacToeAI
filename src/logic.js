@@ -334,6 +334,10 @@ function thirdMove(ticTacToeBoard){
         return "..x.oooxx";
     }else if(board === "x...o.oxx" || board === ".x..o.oxx" || board === "...xo.oxx" || board === "....oxoxx"){
         return  board.replaceAt(2, "o");
+    }else if(board === "x...ox.xo"){
+        return "x...oxoxo";
+    }else if(board === ".x..ox.xo" || board === "..x.ox.xo" || board === "...xox.xo" || board === "....oxxxo"){
+        return board.replaceAt(0, "o");
     }
 
 }
@@ -531,6 +535,10 @@ function lastMove(ticTacToeBoard){
         return "o.xxoooxx";
     }else if(board === "x.x.oooxx" || board === ".xx.oooxx"){
         return board.replaceAt(3, "o");
+    }else if(board === "x.x.oxoxo"){
+        return "xox.oxoxo";
+    }else if(board === "xx..oxoxo" || board === "x..xoxoxo"){
+        return board.replaceAt(2, "o");
     }
 
 }
